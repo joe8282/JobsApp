@@ -1,0 +1,1 @@
+<view class="content"><button data-event-opts="{{[['tap',[['toCompany',['$event']]]]]}}" bindtap="__e">企业入口</button><button data-event-opts="{{[['tap',[['toWorker',['$event']]]]]}}" bindtap="__e">求职者入口</button></view>

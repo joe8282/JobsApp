@@ -1,0 +1,215 @@
+{
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		// npm安装方式
+		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/Company/index",
+			"style": {
+				"navigationBarTitleText": "求职者",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Company/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Company/order",
+			"style": {
+				"navigationBarTitleText": "职位订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Company/my",
+			"style": {
+				"navigationBarTitleText": "企业中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Worker/index",
+			"style": {
+				"navigationBarTitleText": "职位",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Worker/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Worker/resume",
+			"style": {
+				"navigationBarTitleText": "简历",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Worker/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/Company/positionAdd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布职位订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/Company/positionAddSelect",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "职位名称",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/Company/positionAddDes",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "职位描述",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/Company/positionAddSkill",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "职位技能",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/Company/positionAddWelfare",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "福利待遇",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/Company/positionAddAddress",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工作地点",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/Company/positionProgress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "招聘进度",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Company/positionAddSuccess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "职位发布成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Company/positionDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "职位详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FBEE6E",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#000",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/Company/index",
+				"iconPath": "static/images/tabBar1.png",
+				"selectedIconPath": "static/images/tabBar11.png",
+				"text": "求职者"
+			},
+			{
+				"pagePath": "pages/Company/message",
+				"iconPath": "static/images/tabBar2.png",
+				"selectedIconPath": "static/images/tabBar22.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/Company/order",
+				"iconPath": "static/images/tabBar3.png",
+				"selectedIconPath": "static/images/tabBar33.png",
+				"text": "职位订单"
+			},
+			{
+				"pagePath": "pages/Company/my",
+				"iconPath": "static/images/tabBar4.png",
+				"selectedIconPath": "static/images/tabBar44.png",
+				"text": "企业中心"
+			},
+			{
+				"pagePath": "pages/Worker/index",
+				"iconPath": "static/images/tabBar1.png",
+				"selectedIconPath": "static/images/tabBar11.png",
+				"text": "职位"
+			},
+			{
+				"pagePath": "pages/Worker/message",
+				"iconPath": "static/images/tabBar2.png",
+				"selectedIconPath": "static/images/tabBar22.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/Worker/resume",
+				"iconPath": "static/images/tabBar7.png",
+				"selectedIconPath": "static/images/tabBar77.png",
+				"text": "简历"
+			},
+			{
+				"pagePath": "pages/Worker/my",
+				"iconPath": "static/images/tabBar4.png",
+				"selectedIconPath": "static/images/tabBar44.png",
+				"text": "个人中心"
+			}
+		]
+	}
+}

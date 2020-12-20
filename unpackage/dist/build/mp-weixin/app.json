@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/Company/Candidates",
+    "pages/Company/Candidates"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FBEE6E",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/Company/Candidates",
+        "iconPath": "static/images/tabBar1.png",
+        "selectedIconPath": "static/images/tabBar1.png",
+        "text": "求职者"
+      },
+      {
+        "pagePath": "pages/Company/Candidates",
+        "iconPath": "static/images/tabBar2.png",
+        "selectedIconPath": "static/images/tabBar2.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/Company/Candidates",
+        "iconPath": "static/images/tabBar3.png",
+        "selectedIconPath": "static/images/tabBar3.png",
+        "text": "职位订单"
+      },
+      {
+        "pagePath": "pages/Company/Candidates",
+        "iconPath": "static/images/tabBar4.png",
+        "selectedIconPath": "static/images/tabBar4.png",
+        "text": "企业中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
