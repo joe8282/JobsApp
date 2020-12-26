@@ -150,6 +150,53 @@
             }
             
         }
+		,{
+		    "path" : "pages/CompanyCenter/positionManage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "入离职管理",
+				"navigationStyle":"custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/CompanyCenter/positionFilter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "筛选",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+            "path" : "pages/CompanyCenter/positionPay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/CompanyCenter/positionPaySuccess",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "支付成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/CompanyCenter/positionDimission",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "离职证明",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
