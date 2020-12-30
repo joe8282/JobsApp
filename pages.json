@@ -196,7 +196,25 @@
             }
             
         }
-
+        ,{
+            "path" : "pages/Worker/resumeUpload",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "上传简历",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/Worker/resumeAdd",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "发布简历",
+				"navigationStyle":"custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
